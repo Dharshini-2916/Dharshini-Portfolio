@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dharshini S P | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:#080b14;color:#eef2ff;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(8,11,20,.88);backdrop-filter:blur(12px);border-bottom:1px solid #1d2435}
+.navin{max-width:1100px;margin:auto;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:20px}.logo span{color:#8b7cff}
+.links{display:flex;gap:22px;font-size:14px;color:#b9c1d8}
+.links a:hover{color:#fff}
+.hero{min-height:100vh;display:flex;align-items:center;max-width:1100px;margin:auto;padding:110px 24px 70px}
+.badge{display:inline-block;padding:7px 12px;border:1px solid #303950;border-radius:999px;color:#aeb8d5;font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(44px,7vw,78px);line-height:1.02;letter-spacing:-3px;max-width:850px}
+.grad{background:linear-gradient(90deg,#fff,#9e91ff,#6ee7ff);-webkit-background-clip:text;color:transparent}
+.hero p{max-width:700px;color:#aeb8c9;font-size:18px;margin:24px 0}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:12px 18px;border-radius:10px;border:1px solid #303950;background:#121827;font-weight:700;font-size:14px}
+.primary{background:#7c6cff;border-color:#7c6cff;color:white}
+section{max-width:1100px;margin:auto;padding:85px 24px}
+.kicker{color:#8f83ff;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}
+h2{font-size:36px;margin:8px 0 30px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:#0e1320;border:1px solid #20283b;border-radius:16px;padding:24px}
+.card h3{font-size:20px;margin-bottom:8px}.card p,.card li{color:#aeb8c9;font-size:14px}
+.card ul{padding-left:18px;margin-top:12px}
+.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}
+.tag{background:#171e30;border:1px solid #29334b;border-radius:7px;padding:4px 8px;font-size:11px;color:#c9d0e4}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:10px 13px;background:#101728;border:1px solid #263149;border-radius:9px;color:#cbd3e8;font-size:13px}
+.timeline{border-left:2px solid #29334b;padding-left:24px}.item{margin-bottom:30px;position:relative}.item:before{content:"";position:absolute;left:-31px;top:6px;width:10px;height:10px;border-radius:50%;background:#8b7cff}
+.item h3{font-size:19px}.meta{font-size:12px;color:#8e99b2;margin-bottom:7px}
+.ach{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.ach div{padding:16px;border:1px solid #20283b;border-radius:12px;background:#0e1320;color:#bfc8dc;font-size:14px}
+.contact{background:linear-gradient(135deg,#10172a,#0c1120);border:1px solid #27314a;border-radius:20px;padding:35px}
+footer{text-align:center;color:#69758e;padding:35px 20px;border-top:1px solid #1d2435;font-size:13px}
+@media(max-width:700px){.links{display:none}.grid,.ach{grid-template-columns:1fr}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="navin"><div class="logo">Dharshini<span>.</span></div><div class="links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero">
+<div>
+<span class="badge">B.Tech IT • Full Stack • AI/ML • UI/UX</span>
+<h1>Hi, I'm <span class="grad">Dharshini S P.</span></h1>
+<p>Technology enthusiast and aspiring software developer who enjoys building efficient, user-friendly solutions across full-stack development, AI/ML and UI/UX.</p>
+<div class="btns">
+<a class="btn primary" href="#projects">View My Work ↓</a>
+<a class="btn" href="mailto:s.p.dharshini1629@gmail.com">Let's Connect</a>
+<a class="btn" href="https://github.com/Dharshini-2916" target="_blank">GitHub ↗</a>
+<a class="btn" href="https://www.linkedin.com/in/dharshini-s-p-62537530a" target="_blank">LinkedIn ↗</a>
+</div>
+</div>
+</header>
+
+<section id="about">
+<div class="kicker">About Me</div><h2>Building with curiosity.</h2>
+<div class="card"><p>I'm a B.Tech Information Technology student at Dr. N.G.P. Institute of Technology with a strong interest in technologies, innovation and software development. I enjoy learning new skills, solving problems and collaborating to turn ideas into practical digital solutions.</p><br><p><b>Education:</b> B.Tech – Information Technology (2023–2027) • CGPA 7.9 up to 6th semester</p></div>
+</section>
+
+<section id="projects">
+<div class="kicker">Featured Work</div><h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>Integrated Academic & Student Administration Platform</h3><div class="meta">Dec 2025 – Apr 2026</div><p>Web platform for higher-education academic and administrative operations with role-based access for students, faculty and administrators.</p><ul><li>Attendance, marks, grievances and notices</li><li>JWT authentication and REST APIs</li><li>React + Node.js + Express + MongoDB</li></ul><div class="tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span><span class="tag">JWT</span></div></div>
+<div class="card"><h3>Heart Disease Prediction System</h3><div class="meta">Jan 2025 – Apr 2025</div><p>ML system using Jellyfish Optimization to optimize an SVM classifier, with preprocessing and feature selection for prediction.</p><ul><li>Interactive Streamlit interface</li><li>Data preprocessing and feature selection</li><li>Python, SVM, JFO, Pandas & NumPy</li></ul><div class="tags"><span class="tag">Python</span><span class="tag">SVM</span><span class="tag">JFO</span><span class="tag">Streamlit</span></div></div>
+<div class="card"><h3>Placement Automated Management System</h3><div class="meta">Jan 2025 – Feb 2025</div><p>Web-based system developed to automate and streamline placement activities with frontend, backend and database management.</p><div class="tags"><span class="tag">Web Development</span><span class="tag">Database</span><span class="tag">Analytics</span></div></div>
+<div class="card"><h3>Smart Lighting System for Energy Efficiency</h3><div class="meta">Sept 2024 – Dec 2024</div><p>IoT-based smart lighting solution using occupancy sensors to automate lighting control and reduce unnecessary energy usage.</p><div class="tags"><span class="tag">IoT</span><span class="tag">Automation</span><span class="tag">Sensors</span></div></div>
+</div>
+</section>
+
+<section id="skills">
+<div class="kicker">Tech Stack</div><h2>Skills</h2>
+<div class="skills">
+<span class="skill">Java</span><span class="skill">Python</span><span class="skill">JavaScript</span><span class="skill">SQL</span><span class="skill">React.js</span><span class="skill">HTML5</span><span class="skill">CSS3</span><span class="skill">Bootstrap</span><span class="skill">Tailwind CSS</span><span class="skill">Node.js</span><span class="skill">Express.js</span><span class="skill">REST APIs</span><span class="skill">JWT</span><span class="skill">MongoDB Atlas</span><span class="skill">MySQL</span><span class="skill">PostgreSQL</span><span class="skill">Vercel</span><span class="skill">Render</span><span class="skill">Git</span><span class="skill">GitHub</span><span class="skill">Figma</span><span class="skill">Gemini API</span><span class="skill">Prompt Engineering</span><span class="skill">Generative AI</span><span class="skill">LLM Integration</span><span class="skill">Tableau</span><span class="skill">PowerPoint</span>
+</div>
+</section>
+
+<section id="experience">
+<div class="kicker">Experience</div><h2>Professional Experience</h2>
+<div class="timeline">
+<div class="item"><h3>UI/UX Design Intern — App Innovation Technology Pvt. Ltd.</h3><div class="meta">Goundampalayam • June 2025</div><p>Worked with Figma, HTML, CSS and Bootstrap. Recreated the YouTube interface to understand layout, components and user flow, and developed responsive web pages using Bootstrap.</p></div>
+</div>
+</section>
+
+<section>
+<div class="kicker">Highlights</div><h2>Accomplishments</h2>
+<div class="ach">
+<div>🏆 Finalist — Ideas for Viksit Bharat S&T Hackathon, IIT Guwahati</div>
+<div>🥇 Winner — Language Geeks coding contest, MIT • ₹3,000 prize</div>
+<div>🏆 Finalist — Campus Modelothon, Dr. N.G.P. Institute of Technology</div>
+<div>🥇 Winner — Cipher Hunt technical event, THIRAN 2026 • ₹3,000 prize</div>
+<div>📄 5th Place — AI & ML Paper Presentation, THIRAN 2026</div>
+<div>💡 Strengths — Communication, Teamwork, Leadership, Adaptability, Critical Thinking</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="contact"><div class="kicker">Get In Touch</div><h2>Let's build something useful.</h2><p style="color:#aeb8c9;margin-bottom:20px">I'm open to opportunities, collaborations and projects where I can learn, contribute and create impact.</p><div class="btns"><a class="btn primary" href="mailto:s.p.dharshini1629@gmail.com">s.p.dharshini1629@gmail.com</a><a class="btn" href="tel:+919509857020">+91 9509857020</a></div></div>
+</section>
+<footer>© 2026 Dharshini S P • Coimbatore, Tamil Nadu, India</footer>
+</body></html>
